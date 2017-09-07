@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="30000dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView android:text="@string/hello_world"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffff0015"
+        android:layout_height="50dp"
+        android:id="@+id/tvDisplay" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:text="Increase By One"
+        android:id="@+id/btnAdd"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:text="Decrease By One"
+        android:id="@+id/btnSub"
+        android:layout_height="50dp" />
+
+</LinearLayout>
